@@ -14,7 +14,7 @@ For a full description of the program, visit the
 Submit bug reports and feature suggestions, or track changes in the
 [issue queue](https://github.com/eandrade4/Epistasis-Recommendation-Systems-/issues).
 
-## Table of contents
+## Table of Contents
 
 - Requirements
 - Installation
