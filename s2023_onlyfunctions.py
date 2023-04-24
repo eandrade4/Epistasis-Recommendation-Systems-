@@ -83,6 +83,8 @@ def standardize_features(dfphen,phenotype):
 def import_clean(phen, cols, path):
   '''This function reads a file containing a table, turns it into a data frame, and sets up the df in the format we need for the rest of the algorithm. 
 
+        Prior to importing your csv or excel file, make sure that the phenotype column comes before the genotype columns. 
+        This will ensure that later, when you list the column numbers it is in increasing order. 
         Import a csv or excel file using the local computer or Google Drive. 
         If you use Google drive for the path, make sure to import and mount Drive. 
         The dataframe will consist of rows containing the phenotype of an individual, and the genotype. 
