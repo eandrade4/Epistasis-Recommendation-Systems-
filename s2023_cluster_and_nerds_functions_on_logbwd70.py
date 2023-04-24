@@ -68,7 +68,7 @@ import sys
 sys.path.insert(0,'/content/drive/My Drive/Epistasis Project')
 
 #import S2023_OnlyFunctions as ep
-from S2023_OnlyFunctions import *
+from s2023_onlyfunctions import *
 
 images_dir = drive_setup("/content/drive/MyDrive/Epistasis Project/Emmas Code Outputs")
 
