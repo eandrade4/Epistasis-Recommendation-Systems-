@@ -90,6 +90,9 @@ from S2023_OnlyFunctions import *
 #This creates a folder called "Code Outputs" in your Google Drive for figures to be saved to. 
 images_dir = drive_setup("/content/drive/MyDrive/Epistasis Project/Code Outputs")
 
+
+#Make sure that in the csv or excel file you are going to import that the phenotype column comes first, and the genotypes are next. 
+#Your column labels should be in increasing order before listing them here. 
 phenotype, dfphen = import_clean("Name_of_phenotype_column_here_as_string", genotype_column_labels_go_here,'/content/drive/MyDrive/Epistasis Project/Name_of_dataset_here.csv' ) #.csv or .xlsx can be used
 
 #Normalize the data.
